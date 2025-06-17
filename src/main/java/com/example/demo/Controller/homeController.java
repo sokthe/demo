@@ -24,8 +24,19 @@ import org.springframework.web.bind.annotation.PostMapping;
          //
     }
 
+        @GetMapping("/form2")
+        public String Addname(){
+            return "form2";
+            //
+            //
+            //
+            //
+        }
 
-    @GetMapping("second")
+
+
+
+        @GetMapping("second")
     public String second() {
         return "first";
     }
